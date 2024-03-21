@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: rgb(247, 234, 223);
+}
+.navbar .icon{
+    display: flex;
+    align-items: center;
+}
+
+.order .container{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 20px;
+}
+
+.order .row{
+    margin: 10px;
+    display: flex;
+    gap: 2rem;
+}
+
+.order .col-sm{
+    background-color: rgb(247, 234, 223);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.order img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.order button{
+    background-color: rgb(239, 133, 133);
+    color: #ffffff;
+    width: 30%;
+}
+
+.order button{
+    background-color: rgb(239, 133, 133);
+    color: #ffffff;
+    width: 30%;
+}
+
+.order button:hover{
+    background-color: rgb(197, 114, 114);
+    color: #ffffff;
+}
+
+footer{
+    background-color: rgb(247, 234, 223);
+}
